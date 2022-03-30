@@ -9,6 +9,7 @@
     "nx": "nx",
     "heroku-postbuild": "nx build $PROJECT_NAME --prod"
   },
+  "type": "module",
   "private": true,
   "dependencies": {
     "@nestjs/common": "^7.0.0",
