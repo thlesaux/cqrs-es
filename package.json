@@ -6,7 +6,7 @@
     "start": "nx serve",
     "build": "nx build",
     "test": "nx test",
-    "nx": "nx",
+    "nx": "nx"
   },
   "private": true,
   "dependencies": {
