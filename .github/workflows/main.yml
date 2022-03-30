@@ -26,9 +26,9 @@ jobs:
         
     - name: install npm
       run: npm ci
+    - name: Build
+      run: npm run nx -- build
     - name: Lint
       run: npm run nx -- lint
     - name: Unit tests
       run: npm run nx -- test
-    - name: Build
-      run: npm run nx -- build
